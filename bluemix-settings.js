@@ -52,6 +52,8 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: { },
+    
+    httpNodeCors: { origin: “*”, methods: [‘GET’,’PUT’,’POST’,’DELETE’] },
 
     storageModule: require("./couchstorage")
 }
