@@ -24,7 +24,7 @@ var VCAP_APPLICATION = JSON.parse(process.env.VCAP_APPLICATION);
 var VCAP_SERVICES = JSON.parse(process.env.VCAP_SERVICES);
 
 var settings = module.exports = {
-    httpNodeCors: { origin: “*”, methods: ['GET','PUT','POST','DELETE'] },
+    httpNodeCors: { origin: "*", methods: ['GET','PUT','POST','DELETE'] },
     uiPort: process.env.PORT || 1880,
     mqttReconnectTime: 15000,
     serialReconnectTime: 15000,
