@@ -53,8 +53,6 @@ var settings = module.exports = {
 
     functionGlobalContext: { },
     
-    httpNodeCors: { origin: “*”, methods: [‘GET’,’PUT’,’POST’,’DELETE’] },
-
     storageModule: require("./couchstorage")
 }
 
